@@ -102,7 +102,9 @@ h2 {
 
 nav {
   padding: 30px 0px;
+  position: relative;
   z-index: 3;
+  background-color: white;
 }
 
 nav ul {
@@ -131,17 +133,17 @@ header {
   position: relative;
   margin-bottom: 296px;
   height: 600px;
+  z-index: 1;
 }
 
 header::after {
   content: url("/images/bg-pattern-intro-right-desktop.svg");
-  top: 0;
   position: absolute;
+  top: -5rem;
   right: 0;
-  bottom: -53rem;
 }
 
-header::before {
+/* header::before {
   content: "";
   background-image: url("/images/bg-pattern-intro-left-desktop.svg");
   background-repeat: no-repeat;
@@ -151,8 +153,7 @@ header::before {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 0;
-}
+} */
 
 header p {
   margin-bottom: 30px;
