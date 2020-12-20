@@ -33,8 +33,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1;
-  margin-bottom: 25px;
-  margin: 0;
+  margin-bottom: 40px;
   padding-top: 91px;
 }
 
@@ -114,8 +113,7 @@ nav ul {
 }
 
 nav li {
-  margin-left: 35px;
-  letter-spacing: 1.5px;
+  margin-left: 25px;
   font-size: 14px;
 }
 
@@ -128,10 +126,10 @@ nav li a {
 header {
   background-color: var(--dark-voilet);
   color: #fff;
-  padding: 50px;
+  padding: 50px 0px;
   position: relative;
   margin-bottom: 296px;
-  height: 578px;
+  height: 600px;
 }
 
 header::after {
