@@ -34,7 +34,7 @@ h1 {
   letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 40px;
-  padding-top: 91px;
+  padding-top: 115px;
 }
 
 .line-above::before {
@@ -43,7 +43,7 @@ h1 {
   width: 150px;
   height: 1px;
   background-color: #fff;
-  top: 35px;
+  top: 55px;
   left: 0;
 }
 
@@ -79,9 +79,9 @@ h2 {
   justify-content: space-between;
 }
 
-.flex > div {
+/* .flex > div {
   flex: 1;
-}
+} */
 
 .align-start {
   align-items: flex-start;
@@ -121,6 +121,7 @@ nav li a {
   text-decoration: none;
   color: var(--dark-grayish-violet);
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 header {
@@ -167,5 +168,6 @@ header p {
 }
 
 .header-image {
-  margin-bottom: -670px;
+  margin-bottom: -690px;
+  padding: 0;
 }
