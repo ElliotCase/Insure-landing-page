@@ -54,7 +54,7 @@ h2 {
   letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 98px;
-  padding-top: 67px;
+  padding-top: 66px;
 }
 h3 {
   font-size: 25px;
@@ -90,13 +90,12 @@ h3 {
   align-items: flex-start;
 }
 .btn {
-  padding: 10px 27px;
+  padding: 10px 26px;
   border: 2px solid #fff;
   background: transparent;
   color: #fff;
   letter-spacing: 1.3px;
-  font-size: 14px;
-  font-weight: ;
+  font-size: 13px;
 }
 
 .btn-reverse {
@@ -150,12 +149,12 @@ header::after {
 header::before {
   content: url("/images/bg-pattern-intro-left-desktop.svg");
   position: absolute;
-  bottom: -345px;
+  bottom: -344px;
   left: 0;
 }
 
 header p {
-  margin-top: 32px;
+  margin-top: 30px;
   margin-bottom: 33px;
   color: var(--very-light-gray);
   font-size: var(--font-size);
@@ -170,14 +169,14 @@ header p {
 }
 
 .card-img {
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 .card-text {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 100px;
-  margin-top: 21px;
+  margin-top: 18px;
   color: #837d87;
 }
 
