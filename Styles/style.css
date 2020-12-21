@@ -34,7 +34,7 @@ h1 {
   letter-spacing: 1px;
   line-height: 0.9;
   margin-bottom: 25px;
-  padding-top: 122px;
+  padding-top: 121px;
 }
 
 .line-above::before {
@@ -53,8 +53,8 @@ h2 {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1;
-  margin-bottom: 100px;
-  padding-top: 68px;
+  margin-bottom: 98px;
+  padding-top: 67px;
 }
 h3 {
   font-size: 25px;
@@ -66,7 +66,7 @@ h3 {
   width: 150px;
   height: 1px;
   background-color: var(--dark-voilet);
-  top: 7px;
+  top: 8px;
   left: 0;
   opacity: 0.8;
 }
@@ -90,12 +90,13 @@ h3 {
   align-items: flex-start;
 }
 .btn {
-  padding: 10px 25px;
+  padding: 10px 27px;
   border: 2px solid #fff;
   background: transparent;
   color: #fff;
-  letter-spacing: 1.5px;
-  font-size: 13px;
+  letter-spacing: 1.3px;
+  font-size: 14px;
+  font-weight: ;
 }
 
 .btn-reverse {
@@ -147,15 +148,10 @@ header::after {
 }
 
 header::before {
-  content: "";
-  background-image: url("/images/bg-pattern-intro-left-desktop.svg");
-  background-repeat: no-repeat;
-  background-position: bottom left;
+  content: url("/images/bg-pattern-intro-left-desktop.svg");
   position: absolute;
-  bottom: -56%;
+  bottom: -345px;
   left: 0;
-  height: 100%;
-  width: 100%;
 }
 
 header p {
@@ -174,14 +170,14 @@ header p {
 }
 
 .card-img {
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .card-text {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 100px;
-  margin-top: 25px;
+  margin-top: 21px;
   color: #837d87;
 }
 
