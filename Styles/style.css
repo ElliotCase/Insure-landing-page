@@ -53,11 +53,13 @@ h2 {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1;
-  margin-bottom: 98px;
-  padding-top: 66px;
+  margin-bottom: 100px;
+  padding-top: 68px;
+  color: var(--very-dark-Violet);
 }
 h3 {
   font-size: 25px;
+  font-weight: 700;
 }
 
 .line-above-violet::before {
@@ -91,11 +93,15 @@ h3 {
 }
 .btn {
   padding: 10px 26px;
-  border: 2px solid #fff;
   background: transparent;
   color: #fff;
-  letter-spacing: 1.3px;
   font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  border: 1.5px solid #fff;
+  color: white;
+  line-height: 1.6;
 }
 
 .btn-reverse {
@@ -159,7 +165,7 @@ header p {
   color: var(--very-light-gray);
   font-size: var(--font-size);
   opacity: 1;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .header-image {
@@ -174,7 +180,7 @@ header p {
 
 .card-text {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 100px;
   margin-top: 18px;
   color: #837d87;
