@@ -29,7 +29,7 @@ h3 {
 
 h1 {
   position: relative;
-  margin-bottom: 28px;
+  margin-bottom: 27px;
   padding-top: 119px;
   font-size: 72px;
   color: #ffffff;
@@ -50,18 +50,20 @@ h1 {
 
 h2 {
   position: relative;
-  font-size: 4.3rem;
   font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1;
-  margin-bottom: 100px;
-  padding-top: 68px;
+  margin-bottom: 96px;
+  padding-top: 73px;
   color: var(--very-dark-Violet);
-  margin-left: 30px;
+  font-size: 72px;
+  color: #2c2830;
+  letter-spacing: -1px;
+  line-height: 64px;
+  font-size: 72px;
 }
 h3 {
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 28px;
+  color: #2c2830;
+  letter-spacing: -0.39px;
 }
 
 .line-above-violet::before {
@@ -70,7 +72,7 @@ h3 {
   width: 150px;
   height: 1px;
   background-color: var(--dark-voilet);
-  top: 8px;
+  top: 9px;
   left: 0;
   opacity: 0.8;
 }
@@ -165,7 +167,7 @@ header::before {
 
 header p {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
   color: var(--very-light-gray);
   font-size: var(--font-size);
   opacity: 1;
@@ -182,17 +184,25 @@ header p {
 }
 
 .card-img {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .card-text {
   font-size: 16px;
-  line-height: 1.6;
   margin-bottom: 100px;
-  margin-top: 18px;
+  margin-top: 15px;
   color: #837d87;
+  color: #837d88;
+  letter-spacing: 0;
+  line-height: 26px;
 }
 
 .gap {
   margin-right: 10px;
 }
+
+.card {
+  width: 350px;
+}
+
+font-family: Helvetica;
