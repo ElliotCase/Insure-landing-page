@@ -23,7 +23,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "DM Serif Display", serif;
 }
 
@@ -64,6 +65,16 @@ h3 {
   font-size: 28px;
   color: #2c2830;
   letter-spacing: -0.39px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 56px;
+  color: #ffffff;
+  letter-spacing: -0.78px;
+  line-height: 56px;
+  font-weight: 400;
+  margin-top: 2px;
 }
 
 .line-above-violet::before {
@@ -184,12 +195,12 @@ header p {
 }
 
 .card-img {
-  margin-bottom: 27px;
+  margin-bottom: 28px;
 }
 
 .card-text {
   font-size: 16px;
-  margin-bottom: 100px;
+  margin-bottom: 159px;
   margin-top: 15px;
   color: #837d87;
   color: #837d88;
@@ -205,4 +216,34 @@ header p {
   width: 350px;
 }
 
-font-family: Helvetica;
+.box {
+  background-color: var(--dark-voilet);
+  width: 1110px;
+  height: 250px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 81px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.box::before {
+  content: url("/images/bg-pattern-how-we-work-desktop.svg");
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+}
+
+.box__btn {
+  padding: 10px 22px;
+  margin-left: 2px;
+  margin-top: 2px;
+  font-size: 12px;
+  letter-spacing: 1.7px;
+  text-align: center;
+  line-height: 1.5;
+  z-index: 13;
+  position: relative;
+}
