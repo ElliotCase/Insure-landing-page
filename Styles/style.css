@@ -201,7 +201,7 @@ header p {
 .card-text {
   font-size: 16px;
   margin-bottom: 159px;
-  margin-top: 15px;
+  margin-top: 14px;
   color: #837d87;
   color: #837d88;
   letter-spacing: 0;
@@ -227,6 +227,7 @@ header p {
   align-items: center;
   position: relative;
   z-index: 1;
+  margin-bottom: 150px;
 }
 
 .box::before {
@@ -238,12 +239,91 @@ header p {
 
 .box__btn {
   padding: 10px 22px;
-  margin-left: 2px;
   margin-top: 2px;
   font-size: 12px;
-  letter-spacing: 1.7px;
-  text-align: center;
-  line-height: 1.5;
   z-index: 13;
   position: relative;
+  width: 160px;
+  height: 40px;
+  letter-spacing: 1.5px;
+  line-height: 15px;
+}
+
+footer {
+  background-color: var(--very-light-gray);
+  height: 393px;
+}
+
+footer::before {
+  content: url("/images/bg-pattern-footer-desktop.svg");
+  position: absolute;
+  left: 0;
+}
+
+footer ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+footer li {
+  margin-bottom: 10px;
+  padding: 0 0px 0 16px;
+}
+
+foter li a {
+  color: var(--dark-voilet);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(133, 133, 133);
+  padding-bottom: 20px;
+  padding-top: 64px;
+}
+
+.footer__links {
+  margin-top: 27px;
+}
+
+.footer__card {
+  height: 159px;
+  width: 255px;
+  color: #000;
+  padding-top: 20px;
+}
+.footer__links li {
+  padding-bottom: 16px;
+  padding-left: 0;
+  margin: 0;
+  font-family: Karla, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 15.2px;
+}
+.footer__card a {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.footer__logo {
+  position: relative;
+  bottom: 5px;
+  width: 111px;
+}
+
+h5 {
+  color: #837d87;
+  font-family: Karla, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 15.2px;
+  margin: 0;
+  padding-bottom: 9px;
+  text-transform: uppercase;
 }
