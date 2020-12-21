@@ -29,12 +29,12 @@ h3 {
 
 h1 {
   position: relative;
-  font-size: 4.3rem;
+  font-size: 4.35rem;
   font-weight: 400;
   margin-bottom: 25px;
   padding-top: 119px;
-  letter-spacing: 0.4px;
-  line-height: 64px;
+  letter-spacing: 0.3px;
+  line-height: 66px;
 }
 
 .line-above::before {
@@ -56,6 +56,7 @@ h2 {
   margin-bottom: 100px;
   padding-top: 68px;
   color: var(--very-dark-Violet);
+  margin-left: 30px;
 }
 h3 {
   font-size: 25px;
@@ -160,7 +161,7 @@ header::before {
 }
 
 header p {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 33px;
   color: var(--very-light-gray);
   font-size: var(--font-size);
