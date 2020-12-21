@@ -32,7 +32,7 @@ h1 {
   font-size: 4.35rem;
   font-weight: 400;
   margin-bottom: 25px;
-  padding-top: 119px;
+  padding-top: 118px;
   letter-spacing: 0.3px;
   line-height: 66px;
 }
@@ -162,7 +162,7 @@ header::before {
 
 header p {
   margin-top: 20px;
-  margin-bottom: 33px;
+  margin-bottom: 31px;
   color: var(--very-light-gray);
   font-size: var(--font-size);
   opacity: 1;
