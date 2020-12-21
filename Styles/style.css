@@ -43,7 +43,7 @@ h1 {
   width: 150px;
   height: 1px;
   background-color: #fff;
-  top: 55px;
+  top: 56px;
   left: 0;
 }
 
@@ -53,11 +53,11 @@ h2 {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1;
-  margin-bottom: 102px;
-  padding-top: 66px;
+  margin-bottom: 100px;
+  padding-top: 68px;
 }
 h3 {
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .line-above-violet::before {
@@ -66,8 +66,9 @@ h3 {
   width: 150px;
   height: 1px;
   background-color: var(--dark-voilet);
-  top: 6px;
+  top: 7px;
   left: 0;
+  opacity: 0.8;
 }
 .container {
   max-width: 100%;
@@ -151,7 +152,7 @@ header::before {
   background-repeat: no-repeat;
   background-position: bottom left;
   position: absolute;
-  bottom: -57%;
+  bottom: -56%;
   left: 0;
   height: 100%;
   width: 100%;
@@ -167,20 +168,20 @@ header p {
 }
 
 .header-image {
-  margin-bottom: -689px;
+  margin-bottom: -690px;
   padding: 0;
   margin-left: 10px;
 }
 
 .card-img {
-  margin-bottom: 42px;
+  margin-bottom: 35px;
 }
 
 .card-text {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-top: 25px;
   color: #837d87;
 }
 
