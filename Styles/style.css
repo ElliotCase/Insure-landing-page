@@ -29,12 +29,13 @@ h3 {
 
 h1 {
   position: relative;
-  font-size: 4.35rem;
+  margin-bottom: 28px;
+  padding-top: 119px;
+  font-size: 72px;
+  color: #ffffff;
+  letter-spacing: -1px;
+  line-height: 64px;
   font-weight: 400;
-  margin-bottom: 25px;
-  padding-top: 118px;
-  letter-spacing: 0.3px;
-  line-height: 66px;
 }
 
 .line-above::before {
@@ -43,7 +44,7 @@ h1 {
   width: 150px;
   height: 1px;
   background-color: #fff;
-  top: 56px;
+  top: 55px;
   left: 0;
 }
 
@@ -75,7 +76,7 @@ h3 {
 }
 .container {
   max-width: 100%;
-  width: 1105px;
+  width: 1110px;
   margin: auto;
 }
 
@@ -93,16 +94,18 @@ h3 {
   align-items: flex-start;
 }
 .btn {
-  padding: 10px 26px;
+  padding: 10px 27px;
   background: transparent;
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   cursor: pointer;
   color: white;
   border: 1px solid #ffffff;
-  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .btn-reverse {
@@ -156,13 +159,13 @@ header::after {
 header::before {
   content: url("/images/bg-pattern-intro-left-desktop.svg");
   position: absolute;
-  bottom: -344px;
+  bottom: -336px;
   left: 0;
 }
 
 header p {
   margin-top: 20px;
-  margin-bottom: 31px;
+  margin-bottom: 30px;
   color: var(--very-light-gray);
   font-size: var(--font-size);
   opacity: 1;
