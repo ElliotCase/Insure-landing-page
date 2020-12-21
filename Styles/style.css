@@ -31,11 +31,9 @@ h1 {
   position: relative;
   font-size: 4.3rem;
   font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 0.9;
   margin-bottom: 25px;
   padding-top: 119px;
-  letter-spacing: -1px;
+  letter-spacing: 0.4px;
   line-height: 64px;
 }
 
