@@ -48,6 +48,11 @@ h1 {
   top: 55px;
   left: 0;
 }
+.logo {
+  position: relative;
+  left: 3px;
+  top: 2px;
+}
 
 h2 {
   position: relative;
@@ -107,23 +112,40 @@ h4 {
   align-items: flex-start;
 }
 .btn {
+  font-family: Karla, sans-serif;
+
   padding: 10px 27px;
+  height: 40px;
   background: transparent;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
   cursor: pointer;
   color: white;
   border: 1px solid #ffffff;
   justify-content: center;
   font-weight: 700;
-  line-height: 1.5;
+  letter-spacing: 1.5px;
+  line-height: 15.2px;
 }
 
+.menu {
+  position: relative;
+  left: 5px;
+}
 .btn-reverse {
   border-color: var(--dark-voilet);
   color: var(--dark-voilet);
+  font-size: 13px;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 1.5px;
+  line-height: 15.2px;
+  margin: 1.6px 0 0;
+  padding: 11.5px 27px;
+  position: relative;
+  top: 1px;
+  left: 5px;
 }
 
 nav {
@@ -149,6 +171,9 @@ nav li a {
   text-decoration: none;
   color: var(--dark-grayish-violet);
   text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  font-weight: 700;
   letter-spacing: 1.5px;
 }
 
@@ -177,8 +202,8 @@ header::before {
 }
 
 header p {
-  margin-top: 20px;
-  margin-bottom: 31px;
+  margin-top: 28px;
+  margin-bottom: 30px;
   color: var(--very-light-gray);
   font-size: var(--font-size);
   opacity: 1;
