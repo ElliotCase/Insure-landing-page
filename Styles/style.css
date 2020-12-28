@@ -163,9 +163,11 @@ nav button {
 
 nav {
   padding: 29px 0px;
-  position: relative;
   z-index: 3;
   background-color: white;
+  position: relative;
+  width: 100%;
+
 }
 
 nav ul {
@@ -462,6 +464,7 @@ h5 {
     flex: 1;
     order: 1;
     width: 100%;
+    z-index: 10;
   }
   .align-start {
     flex-direction: column;
@@ -470,6 +473,7 @@ h5 {
   header {
     display: block;
   }
+ 
   .header-image {
     display: block;
     width: 100%;
@@ -501,16 +505,70 @@ h5 {
     width: 900px;
     max-width: 650px;
     margin-top: -30px;
+    z-index: 1;
   }
+  .header-left::before{
+    content: url(/images/bg-pattern-intro-left-mobile.svg);
+      position: absolute;
+      left: 0;
+  }
+  .header-left::after{
+    content: url(/images/bg-pattern-intro-right-mobile.svg);
+      position: absolute;
+      right: 0;
+  }
+  
   .menu {
     display: none;
   }
+  ul.show{
+    background-color: var(--very-dark-Violet);
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 100vw;
+    height: calc(100vh - 70px);
+    top: 70px;
+    left: 0;
+  align-items: center;  
+  padding-top: 40px;
+  }
+  nav .hamburger .close{
+    display: none;
+  }
+  nav .hamburger.show .open{
+    display: none;
+  }
+  nav .hamburger.show .close{
+    display: block;
+  }
+  .btn-reverse{
+    color: #fff;
+    border-color: #fff;
+    padding: 15px 80px;
+    font-size: 18px;
+  }
+
+  nav ul li{
+  margin: 20px 0px;  
+  }
+
+  nav ul a{
+    color: #fff;
+    font-size: 18px;
+  }
   .header-nav {
     margin: 0px 30px;
+     position: fixed;
+    width: 100%;
+    margin: 0; 
+  }
+  .heading{
+    margin: -5px 30px;
   }
   .line-above-violet {
     padding-top: 0px;
-    margin-top: -50px;
+    margin-top: -150px;
     font-size: 3rem;
   }
   .card {
