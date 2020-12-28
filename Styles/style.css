@@ -117,16 +117,12 @@ nav button {
   display: none;
 }
 
-/* .flex > div {
-  flex: 1;
-} */
 
 .align-start {
   align-items: flex-start;
 }
 .btn {
   font-family: Karla, sans-serif;
-
   padding: 10px 27px;
   height: 40px;
   background: transparent;
@@ -140,6 +136,13 @@ nav button {
   font-weight: 700;
   letter-spacing: 1.5px;
   line-height: 15.2px;
+  transition: all .6s ease;
+
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+  transition: all .6s ease;
 }
 
 .menu {
@@ -159,6 +162,15 @@ nav button {
   position: relative;
   top: 1px;
   left: 5px;
+  transition: all .6s ease;
+
+}
+
+.btn-reverse:hover{
+  background-color: var(--dark-voilet);
+  color: #fff;
+  transition: all .6s ease;
+
 }
 
 nav {
@@ -430,7 +442,7 @@ h5 {
     overflow: hidden;
   }
 
-  .flex-1 {
+  .flex-column {
     flex-direction: column;
     text-align: center;
     justify-content: center;
